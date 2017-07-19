@@ -23,7 +23,6 @@ class Problem2 {
         while (twoBack <= threshold) {
             int fib = oneBack + twoBack;
 
-
             if (twoBack % 2 == 0) {
                 s += twoBack;
             }
